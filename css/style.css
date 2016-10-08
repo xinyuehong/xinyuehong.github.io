@@ -1,0 +1,317 @@
+/*Logo*/
+.logo {
+	position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    max-width: 5rem;
+    z-index: 10;
+    opacity: 1;
+    transition: all .3s ease 0ms;
+}
+
+.logo img {
+	width: 80px;
+	height: 80px;
+}
+
+/*General*/
+body {
+	font-family: Work Sans,Helvetica Neue,Helvetica,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5;
+	margin: 0px;
+}
+
+/*.clearfix:after {
+	clear:both;
+}
+*/
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*Logo*/
+
+.logo {
+	position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    max-width: 5rem;
+    z-index: 10;
+    opacity: 1;
+    transition: all .3s ease 0ms;
+}
+
+.logo img {
+	width: 80px;
+	height: 80px;
+}
+
+/*Intro about Helen*/
+
+.wrapper {
+	margin: auto;
+	width: 83.33%;
+	max-width: 1140px;
+}
+
+.typeContainer {
+	height: 100px;
+	margin-bottom: 5rem;
+}
+
+h1 {
+	font-size: 3.5rem;
+	margin-top: 8rem;
+	margin-bottom:4rem;
+	font-family: 'work Sans', sans-serif;
+	font-weight: normal;
+}
+
+
+
+.intro {
+	clear:both;
+	width: 47.333%;
+	float: right;
+}
+
+.asof {
+	width: 100%;
+	float :left;
+	color: #9b9b9b;
+	font-size: 70%;
+    font-family: Work Sans,Helvetica Neue,Helvetica,sans-serif;
+    padding: 0;
+   	margin-bottom: 2em;
+    line-height: 0;
+}
+
+#todayDate {
+	float: right;
+}
+
+.intro p {
+	margin: 0;
+	color: #9b9b9b;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: PT Serif,Georgia,serif;
+}
+
+#more {
+	color: black;
+	opacity: 0.6;
+}
+
+/*Projects Dispaly*/
+
+.workSection {
+	clear: both;
+}
+
+.workSection h3 {
+	float: right;
+	color: black;
+	font-size: 4rem;
+	text-align: right;
+	font-family: helvetica;
+	margin-top: 110px;
+	margin-bottom: 84px;
+    text-transform: uppercase;
+    color: hsla(0,0%,61%,.1);
+}
+
+article {
+	width: 100%;
+	margin-bottom:4rem;
+	height: 100%;	
+	display: flex;
+	font-family: 'work sans', sans-serif;
+}
+
+article h3 {
+	font-size: 40px;
+	margin-top: 90px;
+	margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+article p {
+	margin: 1.33333rem 0 .33333rem;
+}
+
+small {
+	display:none;
+	color: #9b9b9b;
+    font-size: 1rem;
+}
+
+
+.imageL {
+	display: inline-block;
+	max-width: 100%;
+    height: auto;
+    max-height: 99%;
+}
+
+.projectIntroR {
+	float: right;
+	width: 100%;
+	margin-left :9.33333%;
+	display: inline-block;
+}
+
+.imageR {
+	display: inline-block;
+	max-width: 30%;
+    height: auto;
+}
+
+.projectIntroL {
+	width: 100%;
+	margin-right: 9.33333%;
+	display: inline-block;
+	flex-grow: 1;
+}
+
+.projectIntroL {
+	width: 100%;
+	margin-right: 9.33333%;
+	display: inline-block;
+	flex-grow: 1;
+}
+
+.caption {
+	float: right;
+	text-align: right;
+}
+
+hr {
+	width:100%;
+	color:black;
+	opacity: 0.2;
+}
+
+h4 {
+	font-size:20px;
+	line-height: 1.5;
+	color: #373a3c;
+    font-weight: 400;
+    margin-top:1rem;
+    margin-bottom: 8px;
+
+}
+
+h6 {
+	color: #9b9b9b;
+    font-size: .9rem;
+    margin-top: 0px;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+.toRight h6 h4{
+	text-alight: right;
+}
+
+button {
+	margin-top: 48px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    display: block;
+    /* margin-top: 1rem; */
+    text-decoration: none;
+    background-color: white;
+    font-size: 1rem;
+    padding: 14px 27px;
+    border: 1px solid grey;
+    font-family: 'work sans';
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: black;
+	color: white ;
+}
+
+.buttonRight {
+	float: right;
+}
+
+.typed-cursor {
+	display: none;
+}
+
+/*Footer*/
+footer {
+    color: #fff;
+    background: #000;
+}
+   
+.container {
+	width: 80%;
+	margin: auto;
+	max-width: 1140px;
+}
+
+.firstPart h2 {
+	padding-top: 115px;
+    padding-bottom: 35px;
+    color: #fff;
+    margin: 0px;
+    font-size: 4rem;
+    line-height: 5.5rem;
+}
+
+nav {
+	margin-top: 1rem;
+	margin-bottom: 100px;
+}
+
+nav a {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	color: white;
+	opacity:0.8;
+	margin-right: 3rem;
+}
+
+.secondPart {
+	padding: 4em 0;
+	color: #9b9b9b;
+	display: flex;
+	flex-direction: row;
+}
+
+.secondPart p{
+	margin-top: 0px;
+	font-size: 1rem;
+}
+
+.secondPart-left {
+	width: 50%;
+	margin-right: 20%;
+}
+
+.secondPart-left ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.secondPart-left li {
+	margin-top: 5px;
+}
+
+.secondPart-left li a {
+	color: white;
+}
+
+.secondPart-right {
+	width: 30%;
+}
+
