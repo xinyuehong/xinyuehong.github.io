@@ -36,6 +36,12 @@ var articles = {
     reset:false
   }
 
+  var headerimg = {
+    duration:0,
+    scale:1,
+    opacity:1,
+    reset:false
+  }
 
 
   window.sr = ScrollReveal();
@@ -43,6 +49,7 @@ var articles = {
   // sr.reveal('p',paragraph);
   // sr.reveal('h2', paragraph);
   sr.reveal('article img',shortintro);
+  sr.reveal('header img',headerimg);
 
   
 var lastScrollTop = 0;

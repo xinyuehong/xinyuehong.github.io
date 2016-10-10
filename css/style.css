@@ -52,7 +52,7 @@ a{
 
 .wrapper {
 	margin: auto;
-	width: 83.33%;
+	width: 80%;
 	max-width: 1140px;
 }
 
@@ -117,7 +117,7 @@ h1 {
 	font-size: 4rem;
 	text-align: right;
 	font-family: helvetica;
-	margin-top: 110px;
+	margin-top: 85px;
 	margin-bottom: 84px;
     text-transform: uppercase;
     color: hsla(0,0%,61%,.1);
@@ -160,26 +160,26 @@ small {
 .projectIntroR {
 	float: right;
 	width: 100%;
-	margin-left :9.33333%;
+	margin-left :10%;
 	display: inline-block;
 }
 
 .imageR {
 	display: inline-block;
-	max-width: 30%;
+	max-width: 32%;
     height: auto;
 }
 
 .projectIntroL {
 	width: 100%;
-	margin-right: 9.33333%;
+	margin-right: 10%;
 	display: inline-block;
 	flex-grow: 1;
 }
 
 .projectIntroL {
 	width: 100%;
-	margin-right: 9.33333%;
+	margin-right: 10%;
 	display: inline-block;
 	flex-grow: 1;
 }
@@ -202,7 +202,7 @@ h4 {
     font-weight: 400;
     margin-top:1rem;
     margin-bottom: 8px;
-
+    opacity:0.7;
 }
 
 h6 {
@@ -218,7 +218,7 @@ h6 {
 }
 
 button {
-	margin-top: 48px;
+	margin-top: 46px;
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -227,7 +227,7 @@ button {
     text-decoration: none;
     background-color: white;
     font-size: 1rem;
-    padding: 14px 27px;
+    padding: 12px 24px;
     border: 1px solid grey;
     font-family: 'work sans';
     background-color: white;

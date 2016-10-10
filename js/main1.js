@@ -39,23 +39,22 @@ $(window).on('scroll', function() {
     }
     lastScrollTop = st;
 });
-
  
 var articles = {
-  duration:1500,
+  duration:1200,
   // rotate:{z:10},
   scale:0,
   opacity:0,
-  reset: true
+  reset: false
 };
 
 var articles1 = {
   delay:200,
-  duration:1500,
+  duration:1200,
   // rotate:{z:10},
   scale:0,
   opacity:0,
-  reset: true
+  reset: false
 };
 
 // var firstintro = {
@@ -66,10 +65,10 @@ var articles1 = {
 // }
 
 var shortintro = {
-  duration:3000,
+  duration:1200,
   scale:0,
   opacity:0,
-  reset:true
+  reset:false
 }
 
 
