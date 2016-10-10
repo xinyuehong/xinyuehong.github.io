@@ -107,6 +107,10 @@ h1 {
 
 /*Projects Dispaly*/
 
+.workDisplay2 {
+	display:none;
+}
+
 .workSection {
 	clear: both;
 }

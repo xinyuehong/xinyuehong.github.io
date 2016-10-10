@@ -35,7 +35,7 @@ a{
 .wrapper {
 	max-width: 1140px;
 	margin: auto;
-	width: 92.333%;
+	width: 92%;
 }
 
 .typeContainer {
@@ -44,8 +44,8 @@ a{
 
 h1 {
 	font-size: 36px;
-	text-align: center;
-	margin-top: 8rem;
+	text-align: left;
+	margin-top: 5rem;
 	margin-bottom:4rem;
 	font-family: 'work Sans', sans-serif;
 	font-weight: normal;
@@ -56,6 +56,7 @@ h1 {
 }
 
 .asof {
+	display:none;
 	width: 100%;
 	float :left;
 	color: #9b9b9b;
@@ -85,21 +86,35 @@ h1 {
 
 /*Projects Dispaly*/
 
+h2 {
+	display:block;
+}
+
+.workSection {
+	display:none;
+}
+.workDisplay {
+	display:none;
+}
+
 .workSection {
 	clear: both;
 }
 
-.workSection h3 {
-	float: right;
+/*.workSection h3 {
+	float: left;
 	color: black;
+	padding-top:3rem;
+	font-weight:300;
 	font-size: 4rem;
 	font-weight: bold;
 	text-align: right;
 	opacity: 0.1;
 	font-family: helvetica;
 }
+*/
 
-article {
+/*article {
 	width: 100%;
 	height: 400px;	
 	display: flex;
@@ -116,17 +131,13 @@ article h3 {
 
 article p {
 	margin: 1.33333rem 0 .33333rem;
-}
+}*/
 
 
 /*for mobile hide image*/
-article img {
-	display: none;
-}
 
 
-
-.projectIntroR {
+/*.projectIntroR {
 	width: 100%;
 	display: inline-block;
 }
@@ -146,10 +157,11 @@ article img {
 }
 
 hr {
+	display:none;
 	width:100%;
 	color:black;
 	opacity: 0.4;
-}
+}*/
 
 h4 {
 	font-size:1rem;
@@ -158,7 +170,7 @@ h4 {
     font-weight: 500;
     margin-top:1.5rem;
     margin-bottom: 0.5rem;
-
+    display:none;
 }
 
 h6 {
@@ -175,12 +187,12 @@ button {
     -moz-appearance: button;
     appearance: button;
     display: block;
-    /* margin-top: 1rem; */
     text-decoration: none;
     background-color: white;
+    margin-top:1.5rem;
     font-size: 1rem;
-    padding: 1rem 1.33333rem;
-    border: 1px solid grey;
+	padding: 0.6rem 0.8rem;
+	border: 1px solid grey;
     font-family: 'work sans';
     background-color: white;
     transition: all 0.3s ease-in-out;
@@ -213,9 +225,11 @@ footer {
 }
 
 .firstPart h2 {
-	margin: 0px;
+	margin-top: 1rem;
+	margin-bottom:2rem;
 	font-size: 2rem;
-	line-height: 2.5rem;
+	line-height: 1.2;
+	color:white;
 }
 
 nav {
@@ -228,17 +242,19 @@ nav {
 }
 
 nav a {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 1.5;
 	color: grey;
 	margin-right: 4rem;
+	display:block;
 }
 
 .secondPart {
-	margin-top: 4em;
+	margin-top: 2rem;
 	color: grey;
 	display: flex;
 	flex-direction: column;
+	padding-bottom:3rem;
 }
 
 .secondPart p{
@@ -256,4 +272,8 @@ nav a {
 }
 .secondPart-left li a {
 	color: white;
+}
+
+#profile {
+	display:none;
 }
