@@ -90,7 +90,7 @@ sr.reveal('.projectIntroR',articles);
 
 
 $("#aboutmeButton").on('click', function(){
-   window.location = "aboutme.html"; 
+   window.location = "index.html"; 
 });    
 
 $("#ArtbytesButton").on('click', function(){
