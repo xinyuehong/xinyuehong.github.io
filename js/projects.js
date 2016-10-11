@@ -57,9 +57,9 @@ $(window).on('scroll', function() {
     st = $(this).scrollTop();
     if(st < lastScrollTop) {
        $('.logo').show(300);
-    }
-    else {
+    } else {
         $('.logo').hide();
+        $('.logo').show(1000);
     }
     lastScrollTop = st;
 });
