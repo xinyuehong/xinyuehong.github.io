@@ -107,6 +107,23 @@ $("#octopusgardenButton").on('click', function(){
 }); 
 
 
+$(document ).ready(function() {
+  console.log("hi");
+  $(function(){
+    $("#hh").css('visibility', 'visible');
+    $("#pp").css('visibility', 'visible');
+    sr.reveal('#pp',shortintro);
+      $("#hh").typed({
+        strings: ["Hi^300, I'm Helen Hong.^1000"],
+        typeSpeed:30,
+        delay:500,
+      });
+  });
+   // 
+   // $("#pp").css('visibility', 'visible');
+
+});
+
 
 
 

@@ -1,3 +1,13 @@
+#pp {
+margin: 0;
+    color: #9b9b9b;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: PT Serif,Georgia,serif;
+}
+
+
+
 /*Logo*/
 .logo {
 	position: fixed;
