@@ -52,15 +52,15 @@ var articles = {
   sr.reveal('header img',headerimg);
 
   
-var lastScrollTop = 0;
-$(window).on('scroll', function() {
-    st = $(this).scrollTop();
-    if(st < lastScrollTop) {
-       $('.logo').show(300);
-    } else {
-        $('.logo').hide();
-        $('.logo').show(1000);
-    }
-    lastScrollTop = st;
-});
+// var lastScrollTop = 0;
+// $(window).on('scroll', function() {
+//     st = $(this).scrollTop();
+//     if(st < lastScrollTop) {
+//        $('.logo').show();
+//     } else {
+//         $('.logo').hide();
+//         $('.logo').show(1000);
+//     }
+//     lastScrollTop = st;
+// });
 
