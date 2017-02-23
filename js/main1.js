@@ -105,6 +105,9 @@ $("#ohSwapButton").on('click', function(){
 $("#octopusgardenButton").on('click', function(){
    window.location = "octopusgarden.html"; 
 }); 
+$("#petborButton").on('click', function(){
+   window.location = "petbor.html"; 
+}); 
 
 
 $(document ).ready(function() {
