@@ -15,6 +15,10 @@ a{
 
 /*Logo*/
 
+#haha {
+	display: none;
+}
+
 .logo {
 	position: fixed;
     top: 1.5rem;
@@ -43,9 +47,9 @@ a{
 }
 
 h1 {
-	font-size: 36px;
-	text-align: left;
-	margin-top: 5rem;
+	font-size: 2.2rem;
+	text-align: center;
+	margin-top: 8rem;
 	margin-bottom:4rem;
 	font-family: 'work Sans', sans-serif;
 	font-weight: normal;
@@ -74,9 +78,10 @@ h1 {
 .intro p {
 	margin: 0;
 	color: #9b9b9b;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.6;
     font-family: PT Serif,Georgia,serif;
+    display:center;
 }
 
 #more {
@@ -87,7 +92,7 @@ h1 {
 /*Projects Dispaly*/
 
 h2 {
-	display:block;
+	display:none;
 }
 
 .workSection {
@@ -226,10 +231,11 @@ footer {
 
 .firstPart h2 {
 	margin-top: 1rem;
-	margin-bottom:2rem;
-	font-size: 2rem;
-	line-height: 1.2;
+	margin-bottom:4rem;
+	font-size: 3rem;
+	line-height: 1.4;
 	color:white;
+	display: block;
 }
 
 nav {
@@ -239,31 +245,39 @@ nav {
 	flex-direction: row;
 	flex-wrap: wrap;
 	text-align: center;
+
 }
 
 nav a {
 	font-size: 1.2rem;
 	line-height: 1.5;
-	color: grey;
+	color: white;
+	opacity: 0.7;
 	margin-right: 4rem;
 	display:block;
 }
 
 .secondPart {
-	margin-top: 2rem;
-	color: grey;
+	margin-top: 4rem;
 	display: flex;
 	flex-direction: column;
 	padding-bottom:3rem;
+	display: block;
+	color:white;
+	opacity:0.2;
 }
 
 .secondPart p{
 	margin-top: 0px;
 	font-size: 1rem;
+	display: none;
 }
 
 .secondPart-left {
 	margin-right: 20%;
+	display:none;
+	color:white;
+	opacity:0.1;
 }
 
 .secondPart-left ul {
@@ -276,4 +290,5 @@ nav a {
 
 #profile {
 	display:none;
+	margin:0 auto;
 }
