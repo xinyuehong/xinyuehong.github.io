@@ -47,7 +47,7 @@ a{
 }
 
 h1 {
-	font-size: 2.2rem;
+	font-size: 2rem;
 	text-align: center;
 	margin-top: 8rem;
 	margin-bottom:4rem;
@@ -82,6 +82,7 @@ h1 {
     line-height: 1.6;
     font-family: PT Serif,Georgia,serif;
     display:center;
+    text-align: center;
 }
 
 #more {
