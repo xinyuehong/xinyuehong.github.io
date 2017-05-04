@@ -1,6 +1,6 @@
   $(function(){
       $("h1").typed({
-        strings: ["Hi^300, I'm Helen Hong.^1000"],
+        strings: ["Hi^300, I'm Helen.^1000"],
         typeSpeed:30,
         delay:500,
       });
